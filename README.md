@@ -20,6 +20,7 @@ var copyGitHubLabels = require('copy-github-labels')();
 
 // Optionally use credentials
 copyGitHubLabels.authenticate({
+  type: 'oauth',
   token: 'your-github-token'
 });
 
